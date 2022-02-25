@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header {
+  background: #5c988a;
+  background: linear-gradient(47deg, #5c988a 15%, #cf7330 98%);
+}
+
+.header__container--logo {
+  background: #5c988a;
+  background: linear-gradient(47deg, #5c988a 15%, #cf7330 98%);
+  color: white;
+  padding: 1em;
+  font-size: .5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  z-index: 1000000;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.header__nav {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.8);
+  top: 0;
+  bottom: 0;
+  left: -100vw;
+  width: 100%;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  z-index: 2;
+}
+
+.header__nav .header__list {
+  list-style: none;
+  padding: 0;
+  width: 80%;
+  margin: 6em auto;
+  background: #FFF;
+}
+
+.header__nav .header__link {
+  display: block;
+  padding: .75em 1em;
+  border-bottom: 1px solid #AAA;
+  color: #CFAD87;
+  text-decoration: none;
+}
+
+.header__nav .header__link {
+  display: block;
+  padding: .75em 1em;
+  border-bottom: 1px solid #AAA;
+  color: #CFAD87;
+  text-decoration: none;
+}
+
+.header__nav .header__link:link {
+  text-decoration: none;
+}
+
+.footer {
+  background-color: #282828;
+  width: 100%;
+}
+
+.footer .footer__redes--title, .footer .footer__contacto--title {
+  padding: 1em;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.footer__redes--title, .footer__contacto--title {
+  padding: 1em;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.footer__redes--title span {
+  color: green;
+}
+
+.footer__redes--title span .footer__container div ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.footer__redes--title span .footer__container div ul li {
+  list-style: none;
+}
+
+.footer__redes--title span .footer__container div ul li a {
+  text-decoration: none;
+}
+
+.footer__redes--title span .footer__container div ul li a i {
+  color: #FFF;
+  font-size: 2em;
+}
+
+.footer__container .contacto {
+  text-align: center;
+}
+
+.footer__container .contacto a i {
+  font-size: 2em;
+  color: #FFF;
+  padding: 1em;
+}
+
+.borde {
+  display: inline-block;
+  padding-bottom: 1em 0 1em 0;
+  border-bottom: 1px solid #FFF;
+  width: 100%;
+}
+
+.pie p {
+  color: #FFF;
+  padding: 1em;
+  text-align: center;
+  font-size: .7em;
+}
+
+header {
+  grid-area: header;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+}
+/*# sourceMappingURL=main.css.map */
